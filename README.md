@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Bino Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bino Hub is a professional, multi-page React web app that showcases the powerful features of Bino — a WhatsApp-based intelligent local search platform. This project demonstrates Bino's capabilities through four interactive and branded sections, helping users and vendors understand its advantages.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Home Page:** Introduction to Bino Hub with feature navigation cards and WhatsApp call-to-action.
+- **Query Playground:** Interactive chat-style demo simulating real WhatsApp queries with sample prompts and bot responses.
+- **Local Hero Map:** Interactive map displaying local vendors by category with contact buttons.
+- **Bino vs Traditional Search:** Animated side-by-side comparison demonstrating Bino's speed and simplicity versus traditional search engines.
+- **Vendor Success Stories:** Showcase of real vendors benefiting from Bino with animated growth metrics and testimonials.
 
-### `npm start`
+## Technology Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js for frontend UI
+- React Router for multi-page navigation
+- React Icons for crisp iconography
+- React Leaflet for interactive mapping
+- CSS for responsive and modern styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup & Run Locally
 
-### `npm test`
+1. Clone the repo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/yourusername/bino-hub.git
 
-### `npm run build`
+text
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to project folder:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd bino-hub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+text
 
-### `npm run eject`
+3. Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+text
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+text
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open http://localhost:3000 in your browser to explore.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+The project can be deployed to platforms like Vercel or Netlify. After pushing to GitHub, connect your repository to deploy quickly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author 
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by Manan Siroya.
+Thank you for exploring Bino Hub!
