@@ -46,9 +46,6 @@ text
 
 5. Open http://localhost:3000 in your browser to explore.
 
-## Deployment
-
-The project can be deployed to platforms like Vercel or Netlify. After pushing to GitHub, connect your repository to deploy quickly.
 
 ## Author 
 
